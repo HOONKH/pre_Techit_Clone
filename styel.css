@@ -45,6 +45,7 @@ body {
 button{
     background-color:transparent;
     padding :0;
+    cursor:pointer;
 }
 
 .header-container{
@@ -111,4 +112,96 @@ li{
 .banner-container > h5{
     margin-top:8px;
     font-size:18px;
+}
+
+.techit-school-container{
+    max-width:1280x;
+    margin:auto;
+    padding:auto;
+    margin-top:80px;
+    
+}
+
+.techit-school-container > div{
+    display:flex;
+    justify-content:space-between;
+    align-items:end;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-top : 50px
+}
+.techit-school-container > div > div >h5{
+    color:#e67800;
+    font-size :16px;
+    font-weight:600;
+}
+.techit-school-container > div > div >h3{
+    font-size:26px;
+    font-weight:600;
+    margin-top: -13px
+}
+.techit-school-container >div > button {
+    font-size:15px;
+    font-weight:bolder;
+    background-color:transparent;
+    border-style: none;
+}
+.techit-school-container > ul{
+    margin-top : 40px;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    justify-items: center;
+    gap:32px;
+
+}
+
+.techit-school-card{
+    width: 290px;
+    height:416px;
+}
+.techit-school-card > .img-container{
+    margin-top:-20px;
+    width: 290px;
+    height: 221px;
+    overflow:hidden;
+    border-radius:12px;
+    margin-bottom: 16px;
+}
+.techit-school-card > .img-container > img{
+    width:290px;
+    height:221px;
+    border-radius:12px;
+}
+.techit-school-card > .img-container > img:hover{
+    transform: scale(1.1);
+    transition:all 1s;
+}
+
+.techit-school-card > .d-day{
+    border-radius:4px;
+    padding:4px 8px;
+    font-size:14px;
+    font-weight:600;
+
+}
+
+.techit-school-card > .d-7{
+    border:1px solid #1d4ed8;
+    color:#1d4ed8;
+}
+
+.techit-school-card > h3{
+    margin: 16px 0 -10px 0;
+    font-size:20px;
+    font-weight: 600;
+    font-weight: lighter;
+}
+.techit-school-card >h5{
+    font-size:18px;
+    
+}
+
+.techit-school-card > .date{
+    margin-top:16px;
+    color:#a3a3a3;
 }
