@@ -1,207 +1,199 @@
 @font-face {
-    font-family: "Pretendard";
-    font-weight: 900;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 800;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 700;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 600;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 500;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff")
-      format("woff");
-  }
+  font-family: "Pretendard";
+  font-weight: 900;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 800;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff")
+    format("woff");
+}
 
 body {
-    font-family:"pretendard";
-    color: #222222;
+  font-family: "pretendard";
+  color: #222222;
 }
-button{
-    background-color:transparent;
-    padding :0;
-    cursor:pointer;
-}
-
-.header-container{
-    max-width:1280px;
-    margin:auto;
-    display :flex;
-    justify-content: space-between;
-    padding:8px 0;
-    font-weight:600;
-}
-.header-container > div{
-    display:flex;
+button {
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
 }
 
-header{
-    border-bottom:1px solid #e5e5e5;
+.header-container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-weight: 600;
+}
+.header-container > div {
+  display: flex;
 }
 
-ul{
-    list-style: none;
+header {
+  border-bottom: 1px solid #e5e5e5;
 }
 
-li{
-    cursor:pointer;
+ul {
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
 }
 
 .header-logo {
-    width :108px;
-
+  width: 108px;
 }
 
-.header-menu{
-    display:flex;
-    gap:36px;
+.header-menu {
+  display: flex;
+  gap: 36px;
 }
 
-.header-login{
-    font-size:16px;
-    font-weight: 600;
-    color: #737373;
-    border-style: none;
+.header-login {
+  font-size: 16px;
+  font-weight: 600;
+  color: #737373;
+  border-style: none;
 }
 
-.banner{
-    background-image:url("./images/banner.png");
-    height:400px;
-    background-size: cover;
+.banner {
+  background-image: url("./images/banner.png");
+  height: 400px;
+  background-size: cover;
 }
 
-.banner-container{
-    max-width:1280px;
-    margin:auto;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    height:100%;
-    cursor:pointer;
+.banner-container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  cursor: pointer;
 }
 
-.banner-container > h3{
-    font-size:32px;
-    font-weight:700;
+.banner-container > h3 {
+  font-size: 32px;
+  font-weight: 700;
 }
-.banner-container > h5{
-    margin-top:8px;
-    font-size:18px;
-}
-
-.techit-school-container{
-    max-width:1280x;
-    margin:auto;
-    padding:auto;
-    margin-top:80px;
-    
+.banner-container > h5 {
+  margin-top: 8px;
+  font-size: 18px;
 }
 
-.techit-school-container > div{
-    display:flex;
-    justify-content:space-between;
-    align-items:end;
-    margin-left: 200px;
-    margin-right:200px;
-    margin-top : 50px
-}
-.techit-school-container > div > div >h5{
-    color:#e67800;
-    font-size :16px;
-    font-weight:600;
-}
-.techit-school-container > div > div >h3{
-    font-size:26px;
-    font-weight:600;
-    margin-top: -13px
-}
-.techit-school-container >div > button {
-    font-size:15px;
-    font-weight:bolder;
-    background-color:transparent;
-    border-style: none;
-}
-.techit-school-container > ul{
-    margin-top : 40px;
-    display:grid;
-    grid-template-columns:repeat(4, 1fr);
-    justify-items: center;
-    gap:32px;
-
+.techit-school-container {
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 80px;
 }
 
-.techit-school-card{
-    width: 290px;
-    height:416px;
+.techit-school-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: auto;
+  max-width: 1280px;
 }
-.techit-school-card > .img-container{
-    margin-top:-20px;
-    width: 290px;
-    height: 221px;
-    overflow:hidden;
-    border-radius:12px;
-    margin-bottom: 16px;
+.techit-school-container > div > div > h5 {
+  color: #e67800;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: space-between;
+  align-items: end;
 }
-.techit-school-card > .img-container > img{
-    width:290px;
-    height:221px;
-    border-radius:12px;
+.techit-school-container > div > div > h3 {
+  margin-top: 8px;
+  font-size: 26px;
+  font-weight: 600;
 }
-.techit-school-card > .img-container > img:hover{
-    transform: scale(1.1);
-    transition:all 1s;
+.techit-school-container > div > button {
+  font-size: 14px;
+  font-weight: bolder;
+  background-color: transparent;
+  border-style: none;
 }
-
-.techit-school-card > .d-day{
-    border-radius:4px;
-    padding:4px 8px;
-    font-size:14px;
-    font-weight:600;
-
-}
-
-.techit-school-card > .d-7{
-    border:1px solid #1d4ed8;
-    color:#1d4ed8;
+.techit-school-container > ul {
+  margin-top: 40px;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.techit-school-card > h3{
-    margin: 16px 0 -10px 0;
-    font-size:20px;
-    font-weight: 600;
-    font-weight: lighter;
+.techit-school-card {
+  width: 290px;
+  height: 416px;
 }
-.techit-school-card >h5{
-    font-size:18px;
-    
+.techit-school-card > .img-container {
+  width: 290px;
+  height: 221px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.techit-school-card > .img-container > img {
+  width: 290px;
+  height: 221px;
+  border-radius: 12px;
+}
+.techit-school-card > .img-container > img:hover {
+  transform: scale(1.1);
+  transition: all 1s;
 }
 
-.techit-school-card > .date{
-    margin-top:16px;
-    color:#a3a3a3;
+.techit-school-card > .d-day {
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.techit-school-card > .d-7 {
+  border: 1px solid #1d4ed8;
+  color: #1d4ed8;
+}
+
+.techit-school-card > h3 {
+  margin: 16px 0 -10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-weight: lighter;
+}
+.techit-school-card > h5 {
+  font-size: 18px;
+}
+
+.techit-school-card > .date {
+  margin-top: 16px;
+  color: #a3a3a3;
 }
